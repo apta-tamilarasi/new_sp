@@ -1,0 +1,264 @@
+#container {
+    padding: 2%;
+}
+
+#fieldmap {
+    width: 95%;
+    margin: auto;
+}
+
+.debitcredit {
+    margin: 1%;
+    border: 1px solid #86b7fe;
+    /* box-shadow: 0px 0px blue; */
+    padding: 2%;
+    /* width: 50%; */
+}
+
+#debitcredit {
+    /* padding: 1%; */
+    /* display: flex; */
+}
+
+.d-grid {
+   
+    padding: 10px 0px;
+}
+#btndiv{
+    display: flex !important;
+}
+#bankcreate-btn{
+    display: flex !important;
+    margin: 25px 0px 0px 15px;
+}
+#bankname{
+    padding: .375rem 2.25rem .375rem .75rem !important;
+}
+.d-grid .btn {
+    margin-left: 15px;
+    
+}
+
+.head {
+    width: 95%;
+    padding: 10px 0px ;
+    margin: auto;
+    display: flex;
+    background-image: linear-gradient(to right, blue, red);
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+.head .icon{
+    /* width: 10%; */
+    font-size: 20px;
+    cursor: pointer;
+}
+.head .content{
+    /* width:25%; */
+    background-image: linear-gradient(to right, blue, red);
+    -webkit-background-clip: text;
+    color: transparent;
+    margin: auto;
+    text-align: center;
+}
+#simplepay{
+    margin-top: 20px !important;
+}
+.nav-tabs{
+    /* padding: 10px 0px; */
+    width: 58%;
+}
+
+.navhead {
+    margin-bottom: 20px;
+    background-image: linear-gradient(to right, blue, red);
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+.input-group-text {
+    width: 42%;
+}
+
+h2 {
+    text-align: center;
+}
+
+.input-group {
+    width: 95% !important;
+    margin: auto;
+}
+
+.form-select:focus,
+.form-control:focus,
+.btn-primary:focus,
+.btn:focus,
+.btn-secondary:focus {
+    box-shadow: none !important;
+}
+
+#journalrecords {
+    width: 100%;
+}
+
+.debitcredit h4 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.editbtn {
+    margin: 20px 10px;
+}
+
+
+#nav {
+    padding: 10px 0px;
+    /* display: flex; */
+    margin: 0px 3%;
+    /* justify-content: space-around; */
+}
+/* 
+#nav h4 {
+    margin-right: 20px;
+} */
+
+textarea {
+    line-height: normal !important;
+
+}
+
+.form-control {
+    font-size: medium !important;
+    padding: 0rem .75rem !important;
+}
+
+.editbtn {
+    display: flex;
+}
+
+.createbtn {
+    margin-left: 10px;
+}
+
+.pagination {
+    margin: 20px 0;
+}
+
+#pagination button {
+    /* margin: 0 5px; */
+    padding: 4px !important;
+    cursor: pointer;
+}
+
+#pagination .btn-secondary {
+    background-color: #86b7fe !important;
+    border-color: #86b7fe !important;
+}
+
+.btn {
+    border-radius: 0% !important;
+}
+
+.object-list {
+    margin-bottom: 20px;
+}
+
+.delete-icon {
+    visibility: hidden;
+    /* position: absolute;
+    right: -35px; */
+    cursor: pointer;
+    color: red;
+    font-size: 15px;
+}
+/* 
+tr:hover .delete-icon {
+    visibility: visible;
+} */
+
+
+.dots {
+    display: inline-block;
+}
+
+.dot {
+    display: inline-block;
+    width: 8px;
+    height: 8px;
+    margin: 0 2px;
+    background-color: rgb(238, 233, 230);
+    border-radius: 50%;
+    animation: loading 1s infinite;
+    /* animation: jump 0.6s infinite alternate; */
+}
+
+.dot:nth-child(1) {
+    animation-delay: 0s;
+}
+
+.dot:nth-child(2) {
+    animation-delay: 0.2s;
+}
+
+.dot:nth-child(3) {
+    animation-delay: 0.4s;
+}
+
+@keyframes jump {
+    0% {
+        transform: translateY(0);
+    }
+
+    100% {
+        transform: translateY(-10px);
+    }
+}
+
+@keyframes loading {
+    0% {
+        opacity: 0.5;
+    }
+
+    50% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 0.5;
+    }
+}
+
+#waitingMessage {
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 15px;
+    background-image: linear-gradient(to right, blue, red);
+    -webkit-background-clip: text;
+    color: transparent;
+    animation: loading 1s infinite;
+}
+
+.alert-danger {
+    margin: 2%;
+    text-align: center;
+}
+.alert{
+    padding: 5px !important;
+}
+
+#wageInput{
+    padding:30px 5px 20px 15px;
+}
+#wageInput .input-group-text{
+    width: 100% !important;
+}
+#wageInput .form-label,.modal-body label{
+    font-size: 15px !important;
+    font-weight: bolder !important;
+
+}
+.form-check{
+    padding: 10px 0px 0px 50px !important;
+}
